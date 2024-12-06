@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscordSpoiler</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="title"><h2>Discord Spoiler</h2></div>
+    <div class="main">
+        <textarea id="in" class="input">このテキストは一文字ずつスポイラーです&#13;Discordのメッセージを読み辛くするのにお使いください</textarea>
+        <textarea id="out" class="output" readonly>||こ||||の||||テ||||キ||||ス||||ト||||は||||一||||文||||字||||ず||||つ||||ス||||ポ||||イ||||ラ||||ー||||で||||す||&#13;||D||||i||||s||||c||||o||||r||||d||||の||||メ||||ッ||||セ||||ー||||ジ||||を||||読||||み||||辛||||く||||す||||る||||の||||に||||お||||使||||い||||く||||だ||||さ||||い||</textarea>
+    </div>
+    <p style="text-align: right; margin-top: 0;"><button onclick="clipboardCopy()" >Copy</button></p>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>

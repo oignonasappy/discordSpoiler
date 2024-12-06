@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+}
+
+textarea{
+    resize: none;
+}
+
+.title {
+    height: 5vh;
+    text-align: center;
+    line-height: 18px;
+}
+
+.main {
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(100, 100, 100);
+}
+
+.input {
+    flex: 1;
+    height: 75vh;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+}
+
+.output {
+    flex: 1;
+    height: 75vh;
+    padding: 5px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
